@@ -11,4 +11,4 @@ jobs:
   run:  # ジョブID
     runs-on: ubuntu-latest
     steps:  # ステップの定義
-      - run: echo "{{ inputs.greeting }}"
+      - run: echo "${{ inputs.greeting }}"
